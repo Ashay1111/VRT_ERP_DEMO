@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocketry Team ERP Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>VGEC Rocketry Team</h1>
+        <nav>
+            <ul>
+                
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./missions.html">Missions</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./team.html">Team</a></li>
+                <li><a href="./resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Welcome to the Rocketry Team ERP</h2>
+            <p>Access all your team resources and tools in one place.</p>
+        </section>
+        <section class="features">
+            <h2>Key Features</h2>
+            <ul>
+                <li>
+                    <img src="mission-control.svg" alt="Mission Control">
+                    <h3>Mission Control</h3>
+                    <p>Track and manage your team's missions and experiments.</p>
+                </li>
+                <li>
+                    <img src="project-management.svg" alt="Project Management">
+                    <h3>Project Management</h3>
+                    <p>Collaborate on projects and track progress with ease.</p>
+                </li>
+                <li>
+                    <img src="team-collaboration.svg" alt="Team Collaboration">
+                    <h3>Team Collaboration</h3>
+                    <p>Communicate and share resources with your team members.</p>
+                </li>
+                <li>
+                    <img src="resource-library.svg" alt="Resource Library">
+                    <h3>Resource Library</h3>
+                    <p>Access a wealth of resources and tools to support your work.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="dashboard">
+            <h2>Your Dashboard</h2>
+            <div class="stats">
+                <h3>Current Status</h3>
+                <ul>
+                    <li>
+                        <span>Current Altitude:</span>
+                        <span id="current-altitude">0 ft</span>
+                    </li>
+                    <li>
+                        <span>Current Velocity:</span>
+                        <span id="current-velocity">0 mph</span>
+                    </li>
+                    <li>
+                        <span>Current Time:</span>
+                        <span id="current-time">00:00:00</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="missions">
+                <h3>Upcoming Missions</h3>
+                <ul>
+                    <li>
+                        <h4>Mission 1: Test Launch</h4>
+                        <p>Launch Date: 2024-06-10</p>
+                        <p>Launch Time: 10:00:00</p>
+                        <button>View Details</button>
+                    </li>
+                    <li>
+                        <h4>Mission 2: Scientific Experiment</h4>
+                        <p>Launch Date: 2024-06-15</p>
+                        <p>Launch Time: 14:00:00</p>
+                        <button>View Details</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Rocketry Team ERP</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

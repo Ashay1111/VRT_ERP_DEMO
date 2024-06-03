@@ -1,0 +1,92 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0c0c0c;
+    color: #fff;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00b8d4;
+}
+
+main {
+    padding: 2em;
+}
+
+.mission-control {
+    background-color: #1f1f1f;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.mission-control h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.mission-control ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 2em;
+}
+
+.mission-control li {
+    background-color: #0c0c0c;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.mission-control button {
+    background-color: #00b8d4;
+    color: #0c0c0c;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 0.5em;
+}
+
+.mission-control button:hover {
+    background-color: #00a0b0;
+}
+
+footer {
+    background-color: #1f1f1f;
+    padding: 1em;
+    text-align: center;
+    font-size: 0.8em;
+}
